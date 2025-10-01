@@ -25,7 +25,7 @@ chooser = int(input('Please choose from the above menu: '))
 temperature = float(input('Enter a temperature to convert: '))
 
 if chooser == 1:
-    print(f'{temperature} degrees Celsius is {temperature * 9/5 + 32} Fahrenheit.')
+    print(f'{temperature} degrees Celsius is {temperature * 9/5 + 32} degrees Fahrenheit.')
 elif chooser == 2:
     print(f'{temperature} degrees Fahrenheit is {(temperature - 32 ) * 5/9} degrees Celsius.')
 
